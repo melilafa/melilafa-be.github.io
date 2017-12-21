@@ -53,50 +53,54 @@
     
     
       </header>
-  <div class="row">
-    <div class="col-5">
-      <div class="form-area">
-        <form role="form">
-          <br style="clear:both">
-          <h3 style="margin-bottom: 25px; text-align: center;">Zeg hallo!</h3>
-          <div class="form-group">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Naam" required>
+      <div class="container-fluid">
+        <div class="row row-contact">
+          <div class="col-5">
+            <div class="form-area">
+              <form role="form">
+                <br style="clear:both">
+                <h3 style="margin-bottom: 25px; text-align: center;">Zeg hallo!</h3>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Naam" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Telefoonnummer" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Onderwerp" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" type="textarea" id="message" placeholder="Bericht" maxlength="500" rows="7"></textarea>
+                  <span class="help-block"><p id="characterLeft" class="help-block "></p></span>
+                </div>
+                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Verzenden</button>
+              </form>
+            </div>
           </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="email" name="email" placeholder="E-mail" required>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Telefoonnummer" required>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="subject" name="subject" placeholder="Onderwerp" required>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" type="textarea" id="message" placeholder="Bericht" maxlength="500" rows="7"></textarea>
-            <span class="help-block"><p id="characterLeft" class="help-block "></p></span>
-          </div>
-          <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Verzenden</button>
-        </form>
+          <div class="col-7">
+              <img class="img-fluid" src="./images/grey.png" alt="Responsive image" class="googlemaps" />
+            </div>
+        </div>
       </div>
-    </div>
-    <div class="col-7">
-        <img class="img-fluid" src="./images/grey.png" alt="Responsive image" class="googlemaps" />
-      </div>
-  </div>
-
   <footer>
       <section class="home-newsletter">
-        <div class="row">
-          <p class='footertekst'> © 2017 Prêt à croquer </p>
+          <div class="container-fluid">       
+            <div class="row">
+              <p class='footertekst'> © 2017 Prêt à croquer </p>
 
-          <div class="col-sm-10">
-            <div class="single">
-              <h2>Schrijf je in voor onze nieuwsbrief</h2>
-              <div class="input-group">
-                <input type="email" class="form-control" placeholder="e-mailadres">
-                <span class="input-group-btn">
-                          <button class="btn btn-theme" type="submit">Verzenden</button>
-                          </span>
+              <div class="col-sm-10">
+                <div class="single">
+                  <h2>Schrijf je in voor onze nieuwsbrief</h2>
+                  <div class="input-group">
+                    <input type="email" class="form-control" placeholder="e-mailadres">
+                    <span class="input-group-btn">
+                              <button class="btn btn-theme" type="submit">Verzenden</button>
+                              </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
