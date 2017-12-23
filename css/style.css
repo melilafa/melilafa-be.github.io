@@ -1,3 +1,4 @@
+
 form {
   padding: 10px;
 }
@@ -32,10 +33,15 @@ h1 {
 
 .navbar {
   max-width: 6500px;
+  background-color: #F84E4E;
+  margin-bottom: 10px;
+  font-size: 20px;
+
 }
 
 .navbar-light .navbar-nav .nav-link {
   background: transparent;
+  color: white;
 }
 
 .logo {
@@ -45,10 +51,9 @@ h1 {
   background-color: transparent;
   max-width: 100px;
   width: 100%;
-
 }
 
-p {
+.p tekstevent {
   text-align: justify;
 }
 
@@ -58,10 +63,9 @@ p {
 }
 
 .footertekst {
-  padding-top: 80px;
-  text-align: center;
+  padding-top: 0px;
   color: white;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 
 .tekstevent {
@@ -69,11 +73,11 @@ p {
 }
 
 .tekstagenda {
-padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 footer {
-padding-top: 30px;
+  padding-top: 30px;
 }
 
 .thumbnailagenda img {
@@ -83,6 +87,7 @@ padding-top: 30px;
 .row-products {
   text-align: center;
 }
+
 
 /*=========================
   Icons
@@ -111,7 +116,7 @@ ul.social-network li {
 }
 
 .social-network a.icoYoutube:hover {
-  background-color: #FF0000;
+  background-color: #282828;
 }
 
 .social-network a.icoFacebook:hover {
@@ -123,7 +128,7 @@ ul.social-network li {
 }
 
 .social-network a.icoInstagram:hover {
-  background-color: #e95950;
+  background-color: #fbad50;
 }
 
 .social-network a.icoVimeo:hover {
@@ -139,8 +144,7 @@ ul.social-network li {
 .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i,
 .social-network a.icoVimeo:hover i,
-.social-network a.icoLinkedin:hover i
-.social-network a.icoYoutube:hover i {
+.social-network a.icoLinkedin:hover i .social-network a.icoYoutube:hover i {
   color: #fff;
 }
 
@@ -182,7 +186,7 @@ a.socialIcon:hover,
 }
 
 .social-circle i {
-  color: #fff;
+  color: #F84E4E;
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   -o-transition: all 0.8s;
@@ -191,7 +195,7 @@ a.socialIcon:hover,
 }
 
 a {
-  background-color: #D3D3D3;
+  background-color: white;
 }
 
 .social-network social-circle {
@@ -221,22 +225,20 @@ a {
 
 .home-newsletter {
   padding-top: 20px;
-  padding-left: 10px;
-  background: #F84E4E;
+  padding-left: 0px;
+  background: #000000;
 }
 
 .home-newsletter .single {
   max-width: 650px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 60px;
   text-align: center;
-  position: relative;
-  z-index: 2;
 }
 
 .home-newsletter .single h2 {
   font-size: 22px;
-  color: #FFFFFF;
+  color: #F84E4E;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -264,6 +266,74 @@ a {
   padding: 0px;
 }
 
-.btn btn-info agenda {
+.btn.btn-info {
+  margin-top: 50px;
+}
+
+.btn.btn-info.dossierlink {
+  margin-top: 20px;
+  background-color: #F84E4E;
+}
+
+.btn.btn-info.dossierlink:hover {
+  background-color: #F17D7D;
+}
+
+.btnreserveren {
+  cursor: pointer;
+  background-color: #F84E4E;
+  border: none;
+  color: #fff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 30px;
+}
+
+.btnreserveren:hover {
+  background-color: #F17D7D;
+}
+
+.btn {
+  background-color: #F84E4E;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #F17D7D;
+}
+
+.verzonden {
+  text-align: center;
+  padding-top: 0px;
+}
+
+.logoverzonden {
+  max-width: 250px;
   padding-top: 100px;
 }
+
+.hover01 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover01 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.td {
+  width: 200px;
+}
+
+.tr {
+  width: 500px;
+}
+
+
