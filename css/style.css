@@ -191,16 +191,8 @@ a.socialIcon:hover,
   transition: all 0.8s;
 }
 
-a {
-  background-color: white;
-}
-
 .social-network social-circle {
   padding-left: 350px;
-}
-
-.red {
-  color: red;
 }
 
 .row-contact {
