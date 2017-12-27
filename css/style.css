@@ -108,10 +108,6 @@ ul.social-network li {
 
 /* footer social icons */
 
-.social-network a.icoRss:hover {
-  background-color: #F56505;
-}
-
 .social-network a.icoYoutube:hover {
   background-color: #282828;
 }
@@ -128,26 +124,33 @@ ul.social-network li {
   background-color: #fbad50;
 }
 
-.social-network a.icoVimeo:hover {
-  background-color: #0590B8;
+.social-network a.icoYoutube {
+  background-color: #FFFFFF;
 }
 
-.social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
+.social-network a.icoFacebook {
+  background-color: #FFFFFF;
 }
 
-.social-network a.icoRss:hover i,
+.social-network a.icoTwitter {
+  background-color: #FFFFFF;
+}
+
+.social-network a.icoInstagram {
+  background-color: #FFFFFF;
+}
+
 .social-network a.icoFacebook:hover i,
 .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i,
-.social-network a.icoVimeo:hover i,
-.social-network a.icoLinkedin:hover i .social-network a.icoYoutube:hover i {
+.social-network a.icoYoutube:hover i {
   color: #fff;
+  
 }
 
 a.socialIcon:hover,
 .socialHoverClass {
   color: #44BCDD;
+  
 }
 
 .social-circle li a {
